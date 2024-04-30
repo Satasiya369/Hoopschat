@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    background: url("./e2a99268-cade-4a52-95a9-ceec27f9509b.jpeg");
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    
+}
+
+.app {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.screen {
+    display: none;
+    padding: 20px;
+}
+
+.active {
+    display: block;
+}
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(211, 211, 211, 0.556);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid darkred;
+    padding: 10px;
+    color: darkgoldenrod;
+
+}
+
+.form-input {
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 20px ;
+}
+
+
+.form-input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-input button {
+    padding: 10px 20px;
+    background: none;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-input button:hover {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+#exit-chat{
+    padding: 5px 10px;
+    background: none;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+   font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#exit-chat:hover{
+    background-color: black;
+    color: white;
+}
+.messages {
+    max-height: 500px;
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.154);
+
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.other-message {
+    background-color:rgba(255, 255, 255, 0.706);
+}
+
+.message .name {
+    font-weight: bold;  
+    margin-bottom: 5px;
+}
+
+.typebox {
+    display: flex;
+}
+
+.typebox input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.typebox button {
+    padding: 10px 20px;
+    background-color: 	#00800071;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition:  0.3s ease;
+}
+
+.typebox button:hover {
+    background-color: #008000;
+}
+
+.update {
+    text-align: center;
+    font-style: italic;
+    color:#21618C ;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
